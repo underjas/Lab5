@@ -53,7 +53,7 @@ function symbolizeCountiesByschool(countyData, schoolData) {
             const schoolCount = feature.properties.schoolCount || 0;
 
             // Debugging: check feature data before binding popup
-            console.log('County Feature:', feature);
+            //console.log('County Feature:', feature);
 
             layer.bindPopup(`<strong>${countyName} county</strong><br>Schools: ${schoolCount}`);
         }
