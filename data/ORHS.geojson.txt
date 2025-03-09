@@ -1,0 +1,415 @@
+{
+ "currentVersion": 10.61,
+ "id": 0,
+ "name": "Oregon Schools",
+ "type": "Feature Layer",
+ "description": "This feature class is Oregon's complete educational locations point dataset. The dataset includes K-12 public schools,established under the laws of the state and regulated by local authorities in various districts, counties or towns, maintained at the public expense by taxation, and open to residents' children. School district and education service district offices are also represented with regards to public education. Oregon K-12 private schools, colleges, universities, and career schools are also included in this dataset.",
+ "geometryType": "esriGeometryPoint",
+ "sourceSpatialReference": {
+  "wkid": 2992,
+  "latestWkid": 2992
+ },
+ "copyrightText": "Oregon Department of Human Services & Oregon Health Authority (Office of Forecasting, Research and Analysis)",
+ "parentLayer": null,
+ "subLayers": [],
+ "minScale": 0,
+ "maxScale": 0,
+ "drawingInfo": {
+  "renderer": {
+   "type": "simple",
+   "symbol": {
+    "type": "esriPMS",
+    "url": "21e545f18ad029b6b62f372c69bf6ae1",
+    "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAgAAAAOCAYAAAASVl2WAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAI9JREFUGJWNjj0KwlAQhD/hnWBu4CXsrIUIIuQCNpa5Q1prCzvvEC8itqaxtpjSNCo2LxCeiXFg2R3225/AiELij5L2ts9DwMr2BqgklbYvKQAwAda2Z5KyPuAO7ICD7SYFKqAAHkM/1N1mH/Clv4AcmEY/B56xPgHXAGyBRWcoi/nWAqMnXjFSvVtg+WvDB+lwJGD4pHIuAAAAAElFTkSuQmCC",
+    "contentType": "image/png",
+    "width": 6,
+    "height": 10,
+    "angle": 0,
+    "xoffset": 0,
+    "yoffset": 0
+   },
+   "label": "",
+   "description": ""
+  },
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "defaultVisibility": false,
+ "extent": {
+  "xmin": 238850.2804606259,
+  "ymin": 96559.0835404098,
+  "xmax": 2250807.8026393205,
+  "ymax": 1640091.319819495,
+  "spatialReference": {
+   "wkid": 2992,
+   "latestWkid": 2992
+  }
+ },
+ "hasAttachments": false,
+ "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+ "displayField": "Institution_Name_Line1",
+ "typeIdField": null,
+ "subtypeFieldName": null,
+ "subtypeField": null,
+ "defaultSubtypeCode": null,
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "domain": null
+  },
+  {
+   "name": "Institution_Name_Line1",
+   "type": "esriFieldTypeString",
+   "alias": "Institution_Name_Line1",
+   "length": 255,
+   "domain": null
+  },
+  {
+   "name": "Institution_Name_Line2",
+   "type": "esriFieldTypeString",
+   "alias": "Institution_Name_Line2",
+   "length": 255,
+   "domain": null
+  },
+  {
+   "name": "Institution_Alternative_Name",
+   "type": "esriFieldTypeString",
+   "alias": "Institution_Alternative_Name",
+   "length": 255,
+   "domain": null
+  },
+  {
+   "name": "Mail_Address_Line1",
+   "type": "esriFieldTypeString",
+   "alias": "Mail_Address_Line1",
+   "length": 255,
+   "domain": null
+  },
+  {
+   "name": "Mail_Address_Line2",
+   "type": "esriFieldTypeString",
+   "alias": "Mail_Address_Line2",
+   "length": 255,
+   "domain": null
+  },
+  {
+   "name": "Mail_City",
+   "type": "esriFieldTypeString",
+   "alias": "Mail_City",
+   "length": 150,
+   "domain": null
+  },
+  {
+   "name": "Mail_State",
+   "type": "esriFieldTypeString",
+   "alias": "Mail_State",
+   "length": 2,
+   "domain": null
+  },
+  {
+   "name": "Mail_Zipcode",
+   "type": "esriFieldTypeString",
+   "alias": "Mail_Zipcode",
+   "length": 5,
+   "domain": null
+  },
+  {
+   "name": "Mail_Zipcode_Plus4",
+   "type": "esriFieldTypeString",
+   "alias": "Mail_Zipcode_Plus4",
+   "length": 4,
+   "domain": null
+  },
+  {
+   "name": "Site_Address_Line1",
+   "type": "esriFieldTypeString",
+   "alias": "Site_Address_Line1",
+   "length": 255,
+   "domain": null
+  },
+  {
+   "name": "Site_Address_Line2",
+   "type": "esriFieldTypeString",
+   "alias": "Site_Address_Line2",
+   "length": 255,
+   "domain": null
+  },
+  {
+   "name": "Site_City",
+   "type": "esriFieldTypeString",
+   "alias": "Site_City",
+   "length": 150,
+   "domain": null
+  },
+  {
+   "name": "Site_State",
+   "type": "esriFieldTypeString",
+   "alias": "Site_State",
+   "length": 2,
+   "domain": null
+  },
+  {
+   "name": "Site_Zipcode",
+   "type": "esriFieldTypeString",
+   "alias": "Site_Zipcode",
+   "length": 5,
+   "domain": null
+  },
+  {
+   "name": "Sitel_Zipcode_Plus4",
+   "type": "esriFieldTypeString",
+   "alias": "Sitel_Zipcode_Plus4",
+   "length": 4,
+   "domain": null
+  },
+  {
+   "name": "Phone_Primary",
+   "type": "esriFieldTypeString",
+   "alias": "Phone_Primary",
+   "length": 25,
+   "domain": null
+  },
+  {
+   "name": "Phone_Fax",
+   "type": "esriFieldTypeString",
+   "alias": "Phone_Fax",
+   "length": 25,
+   "domain": null
+  },
+  {
+   "name": "Email_Primary",
+   "type": "esriFieldTypeString",
+   "alias": "Email_Primary",
+   "length": 255,
+   "domain": null
+  },
+  {
+   "name": "Parent_Institution_Name",
+   "type": "esriFieldTypeString",
+   "alias": "Parent_Institution_Name",
+   "length": 255,
+   "domain": null
+  },
+  {
+   "name": "ODE_Institution_ID",
+   "type": "esriFieldTypeInteger",
+   "alias": "ODE_Institution_ID",
+   "domain": null
+  },
+  {
+   "name": "Project_Institution_ID",
+   "type": "esriFieldTypeInteger",
+   "alias": "Project_Institution_ID",
+   "domain": null
+  },
+  {
+   "name": "Grade_Lowest_NS12",
+   "type": "esriFieldTypeString",
+   "alias": "Grade_Lowest_NS12",
+   "length": 2,
+   "domain": null
+  },
+  {
+   "name": "Grade_Highest_NS12",
+   "type": "esriFieldTypeString",
+   "alias": "Grade_Highest_NS12",
+   "length": 2,
+   "domain": null
+  },
+  {
+   "name": "URL_Primary",
+   "type": "esriFieldTypeString",
+   "alias": "URL_Primary",
+   "length": 255,
+   "domain": null
+  },
+  {
+   "name": "URL_Site_Image",
+   "type": "esriFieldTypeString",
+   "alias": "URL_Site_Image",
+   "length": 255,
+   "domain": null
+  },
+  {
+   "name": "URL_Mascot_Image",
+   "type": "esriFieldTypeString",
+   "alias": "URL_Mascot_Image",
+   "length": 255,
+   "domain": null
+  },
+  {
+   "name": "effDate",
+   "type": "esriFieldTypeString",
+   "alias": "effDate",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "cSteward",
+   "type": "esriFieldTypeString",
+   "alias": "cSteward",
+   "length": 255,
+   "domain": null
+  },
+  {
+   "name": "Data_Name_Contact",
+   "type": "esriFieldTypeString",
+   "alias": "Data_Name_Contact",
+   "length": 255,
+   "domain": null
+  },
+  {
+   "name": "Data_Phone_Contact",
+   "type": "esriFieldTypeString",
+   "alias": "Data_Phone_Contact",
+   "length": 25,
+   "domain": null
+  },
+  {
+   "name": "Data_Email_Contact",
+   "type": "esriFieldTypeString",
+   "alias": "Data_Email_Contact",
+   "length": 255,
+   "domain": null
+  },
+  {
+   "name": "SBHC_Program_ID",
+   "type": "esriFieldTypeString",
+   "alias": "SBHC_Program_ID",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "Institution_Type",
+   "type": "esriFieldTypeString",
+   "alias": "Institution_Type",
+   "length": 150,
+   "domain": null
+  },
+  {
+   "name": "Data_Verification_Staff_Name",
+   "type": "esriFieldTypeString",
+   "alias": "Data_Verification_Staff_Name",
+   "length": 150,
+   "domain": null
+  },
+  {
+   "name": "Data_Verification_Method",
+   "type": "esriFieldTypeString",
+   "alias": "Data_Verification_Method",
+   "length": 150,
+   "domain": null
+  },
+  {
+   "name": "Data_Verification_Date",
+   "type": "esriFieldTypeDate",
+   "alias": "Data_Verification_Date",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "POINT_X",
+   "type": "esriFieldTypeDouble",
+   "alias": "POINT_X",
+   "domain": null
+  },
+  {
+   "name": "POINT_Y",
+   "type": "esriFieldTypeDouble",
+   "alias": "POINT_Y",
+   "domain": null
+  },
+  {
+   "name": "Symbol",
+   "type": "esriFieldTypeString",
+   "alias": "Symbol",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "Title1_School",
+   "type": "esriFieldTypeString",
+   "alias": "Title1_School",
+   "length": 5,
+   "domain": null
+  },
+  {
+   "name": "OFRAID",
+   "type": "esriFieldTypeInteger",
+   "alias": "OFRAID",
+   "domain": null
+  },
+  {
+   "name": "GIS_PRC_DT",
+   "type": "esriFieldTypeString",
+   "alias": "GIS_PRC_DT",
+   "length": 10,
+   "domain": null
+  },
+  {
+   "name": "EFFECTV_DT",
+   "type": "esriFieldTypeString",
+   "alias": "EFFECTV_DT",
+   "length": 10,
+   "domain": null
+  },
+  {
+   "name": "Shape",
+   "type": "esriFieldTypeGeometry",
+   "alias": "Shape",
+   "domain": null
+  }
+ ],
+ "geometryField": {
+  "name": "Shape",
+  "type": "esriFieldTypeGeometry",
+  "alias": "Shape"
+ },
+ "indexes": [
+  {
+   "name": "FDO_OBJECTID",
+   "fields": "OBJECTID",
+   "isAscending": true,
+   "isUnique": true,
+   "description": ""
+  },
+  {
+   "name": "FDO_Shape",
+   "fields": "Shape",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  }
+ ],
+ "subtypes": [],
+ "relationships": [],
+ "canModifyLayer": true,
+ "canScaleSymbols": false,
+ "hasLabels": false,
+ "capabilities": "Map,Query,Data",
+ "maxRecordCount": 10000,
+ "supportsStatistics": true,
+ "supportsAdvancedQueries": true,
+ "supportedQueryFormats": "JSON, AMF, geoJSON",
+ "isDataVersioned": false,
+ "ownershipBasedAccessControlForFeatures": {"allowOthersToQuery": true},
+ "useStandardizedQueries": true,
+ "advancedQueryCapabilities": {
+  "useStandardizedQueries": true,
+  "supportsStatistics": true,
+  "supportsHavingClause": true,
+  "supportsCountDistinct": true,
+  "supportsOrderBy": true,
+  "supportsDistinct": true,
+  "supportsPagination": true,
+  "supportsTrueCurve": true,
+  "supportsReturningQueryExtent": true,
+  "supportsQueryWithDistance": true,
+  "supportsSqlExpression": true
+ },
+ "supportsDatumTransformation": true,
+ "dateFieldsTimeReference": null,
+ "supportsCoordinatesQuantization": true
+}

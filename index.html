@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+            <title>GEOG 572 Lab 5</title>
+            <link rel="shortcut icon" href="https://map.oregonstate.edu/sites/all/themes/doug_fir/favicon.ico" type="image/vnd.microsoft.icon" />
+        <!--put your external stylesheet links here-->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+        <link rel="stylesheet" href="css/style.css">
+
+         <!--you can also place internal styles here;
+             place these within <style> tags-->
+        
+    </head>
+
+    <body>
+        
+        <h1 align="center">Oregon Schools</h1>
+        <h3 align="center">GEOG 572 Lab 5</h3>
+        <hr>
+        <p align="center">Schools per County:</p>
+        
+        <!--put your initial page content here-->
+        <div id="map"></div>
+        <!--you can also use this space for internal scripts;
+        place these within <script> tags-->
+        <hr>
+        <p align="center">Schools per Capita by County:</p>
+        <div id="map2"></div>
+        <hr>
+        
+
+        <!--put your external script links here-->
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+        <script src="https://unpkg.com/@turf/turf"></script>
+        <script type="text/javascript" src="js/Lab5a.js" defer></script>
+        <script type="text/javascript" src="js/Lab5b.js" defer></script>
+    </body>
+</html>
