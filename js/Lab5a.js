@@ -106,7 +106,7 @@ function addLegend() {
 
 // Load GeoJSON data
 Promise.all([
-    fetch('data/OrCoPOly.geojson').then(res => res.json()),
+    fetch('data/OrCoPoly.geojson').then(res => res.json()),
     fetch('data/ORHS2.geojson').then(res => res.json())
 ])
 .then(([countyData, schoolData]) => {
