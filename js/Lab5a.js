@@ -75,7 +75,7 @@ function symbolizeCountiesByschool(countyData, schoolData) {
             const city = feature.properties.Mail_City || 'No City';
 
             // Debugging: check feature data before binding popup
-            console.log('School Feature:', feature);
+            //console.log('School Feature:', feature);
 
             layer.bindPopup(`<strong>${schoolName}</strong><br>${address}<br>${city}, OR`);
         }
